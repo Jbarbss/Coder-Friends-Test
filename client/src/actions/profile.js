@@ -67,7 +67,7 @@ export const getProfileById = userId => async (dispatch) => {
 
 // get githubrepos
 
-export const getGithubRepos = username => async (dispatch) => {
+export const getGithubRepos = (username) => async (dispatch) => {
 
   
   try {
