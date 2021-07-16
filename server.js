@@ -129,7 +129,7 @@ function isLoggedIn(req, res, next) {
 	res.redirect('/');
 }
 
-app.get('/auth/facebook', passport.authenticate('facebook', { scope : 'email' }));
+app.get('/api/auth/facebook', passport.authenticate('facebook', { scope : 'email' }));
 
 app.get('/facebook/callback',
 		passport.authenticate('facebook', {
@@ -138,6 +138,6 @@ app.get('/facebook/callback',
 		}));
 
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
