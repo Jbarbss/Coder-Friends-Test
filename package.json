@@ -1,5 +1,5 @@
 {
-  "name": "coders",
+  "name": "coderfriends",
   "version": "1.0.0",
   "description": "Social network for developers",
   "main": "server.js",
@@ -21,14 +21,11 @@
     "client": "file:client",
     "config": "^3.3.3",
     "express": "^4.17.1",
-    "express-session": "^1.17.2",
     "express-validator": "^6.8.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.8",
-    "normalize-url": "^5.3.0",
-    "passport": "^0.4.1",
-    "passport-facebook": "^3.0.0"
+    "normalize-url": "^5.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",

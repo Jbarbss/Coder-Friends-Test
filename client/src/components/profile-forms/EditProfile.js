@@ -78,6 +78,12 @@ const EditProfile = ({
         <i className='fas fa-user' /> Add some changes to your profile
       </p>
       <small>* = required field</small>
+      <br/>
+      <br/>
+      <a href="https://en.gravatar.com/" target="_blank" rel="noopener noreferrer">
+      <i className="fas fa-plus fa-2x" />
+      Create Your Profile Image on Gravatar
+    </a>
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>

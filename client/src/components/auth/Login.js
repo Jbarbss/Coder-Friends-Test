@@ -55,13 +55,9 @@ const Login = ({ login, isAuthenticated }) => {
         </div>
         <input type='submit' className='btn btn-primary' value='Login' />
       </form>
-      <p>Login or Register with:</p>
-
-		<a href="/auth/facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</a>
       <p className='my-1'>
         Don't have an account? <Link to='/register'>Sign Up</Link>
       </p>
-      
     </Fragment>
   );
 };
